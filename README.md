@@ -78,9 +78,9 @@ Source: [Ask Ubuntu][8]
   1. Generate a SSH key pair on the local machine:  
     `$ ssh-keygen`
   2. Copy the public id to the server:  
-    `$ ssh-copy-id username@remote_host -p**_PORTNUMBER_**`
+    `$ ssh-copy-id username@remote_ip -p 2200
   3. Login with the new user:  
-    `$ ssh -v grader@PUBLIC-IP-ADDRESS -p2200`
+    `$ ssh -v grader@PUBLIC-IP-ADDRESS -p 2200`
   4. Open SSHD config:  
     `$ sudo vim /etc/ssh/sshd_config`
   5. Change `PasswordAuthentication` back from `yes` to `no`.
