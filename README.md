@@ -338,7 +338,7 @@ Source: [DigitalOcean][23] (alternatively, nice short guide on [Kill The Yak][24
 7. Create needed linux user for psql:  
   `$ sudo adduser catalog` (choose a password)
 8. Change to default user postgres:  
-  `$ sudo su - postgre`
+  `$ sudo su - postgres`
 9. Connect to the system:  
   `$ psql`
 10. Add postgre user with password:  
